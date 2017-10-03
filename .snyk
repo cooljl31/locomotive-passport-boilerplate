@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - locomotive > express > connect > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > body-parser > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > compression > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > connect-timeout > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > send > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > express-session > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > finalhandler > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > morgan > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > serve-index > debug:
+        patched: '2017-10-03T04:57:06.962Z'
+    - locomotive > express > connect > serve-static > send > debug:
+        patched: '2017-10-03T04:57:06.962Z'
